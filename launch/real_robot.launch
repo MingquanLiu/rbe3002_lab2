@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_gazebo_rviz.launch">
+	  </include>
+	<node name="robotpublisher" pkg="rbe3002_lab2" type="Robot.py" args="" output="screen" />
+	
+</launch>
